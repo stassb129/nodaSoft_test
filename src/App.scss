@@ -1,0 +1,10 @@
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+$primaryColor: rgba(58, 111, 158, 0.6);
+$disabledColor: rgba(58, 111, 158, 0.16);
+$fontColor: white;

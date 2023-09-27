@@ -1,0 +1,24 @@
+@import "src/App";
+
+.button {
+  width: 200px;
+  height: 50px;
+  margin: 50px 0;
+  background-color: $primaryColor;
+  border: 0;
+  border-radius: 10px;
+  font-size: 15px;
+  color: $fontColor;
+  transition: background-color 0.2s;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(58, 111, 158, 0.97);
+  }
+
+  &:disabled {
+    background-color: $disabledColor;
+    color: rgba(255, 255, 255, 0.66);
+    cursor: default;
+  }
+}
